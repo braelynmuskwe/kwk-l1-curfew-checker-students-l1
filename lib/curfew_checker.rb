@@ -1,4 +1,4 @@
-def simple_curfew_checker(time)
+hdef simple_curfew_checker(time)
   if time >= 11
     puts "you're late!!!"
     elsif time <= 11 
@@ -27,16 +27,18 @@ end
 end
 def deluxe_curfew_checker(time)
   time = 8
-  curfew == 11 
-  hours_left == curfew - time
+  curfew = 11 
+  hours_left = curfew - time
   puts "you have #{hours_left}"
-  if time == 11
+  if time >  11
     "you're on time"
-  elsif time > 11
+  elsif time < 11
    "you have #{hours_left}"
   
 end
 end
+
+delux_curfew__checker()
 
 
 def platinum_curfew_checker(current_time, curfew_time)
